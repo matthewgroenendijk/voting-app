@@ -26,4 +26,53 @@
             </div>
         </div>
     </div>
+
+    <div class="ideas-container space-y-6 my-6">
+        <div class="idea-container hover:shadow-card transition ease-in duration-150 bg-white rounded-xl flex cursor-pointer">
+            <div class="border-r border-gray-100 px-5 py-8">
+                <div class="text-center">
+                    <div class="fpmt-semibold text-2xl">12</div>
+                    <div class="text-gray-500">Votes</div>
+                </div>
+
+                <div class="mt-8">
+                    <button class="w-20 bg-gray-200 font-bold text-xxs uppercase rounded-xl transition duration-150 ease-in px-4 py-3 border border-gray-200 hover:border-gray-400">Vote</button>
+                </div>
+            </div>
+            <div class="flex px-2 py-6">
+                <a href="" class="flex-none">
+                    <img src="https://images.unsplash.com/photo-1679238349162-b79369a61534?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDM1fHRvd0paRnNrcEdnfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=800&q=60" alt="avatar" class="w-14 h-14 object-cover rounded-xl">
+                </a>
+                <div class="mx-4">
+                    <h4 class="text-xl font-semibold">
+                        <a href="" class="hover:underline">A random title can go here</a>
+                    </h4>
+                    <div class="text-gray-600 mt-3 line-clamp-3">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut dolor porro repellendus ut! Animi at, commodi, cum cumque dolorum incidunt, ipsam iste magnam minus numquam omnis perspiciatis quia recusandae repellendus saepe sapiente sed sunt tempore veniam vero. Adipisci atque aut blanditiis dolor dolorum earum facere facilis incidunt inventore laboriosam magni nobis, nulla omnis pariatur provident quae quibusdam quidem repellendus, sed sunt suscipit veniam veritatis. Amet consequatur delectus deserunt eveniet ipsum magni nam nostrum odit tempore voluptates. Aperiam commodi eos impedit perspiciatis quaerat quasi, veniam voluptatem! At et labore nostrum rem suscipit tempore. Accusamus culpa, exercitationem magni obcaecati reprehenderit sed veniam!
+                    </div>
+
+                    <div class="flex items-center justify-between mt-6">
+                        <div class="flex items-center text-xs font-semibold space-x-2 text-gray-400">
+                            <div>10 hours ago</div>
+                            <div>&bull;</div>
+                            <div>Category 1</div>
+                            <div>&bull;</div>
+                            <div class="text-gray-900">3 Comments</div>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <div class="bg-gray-200 text-xxs font-bold uppercase leading-none rounded-full text-center w-28 h-7 py-2 px-4">Open</div>
+                            <button class="relative bg-gray-100 hover:bg-gray-200 transition duration-150 ease-in rounded-full h-7 py-2 px-3">
+                                <svg fill="currentColor" width="24" height="6"><path d="M2.97.061A2.969 2.969 0 000 3.031 2.968 2.968 0 002.97 6a2.97 2.97 0 100-5.94zm9.184 0a2.97 2.97 0 100 5.939 2.97 2.97 0 100-5.939zm8.877 0a2.97 2.97 0 10-.003 5.94A2.97 2.97 0 0021.03.06z" style="color: rgba(163, 163, 163, .5)" />
+                                </svg>
+                                <ul class="absolute w-44 text-left  font-semibold bg-white shadow-dialog rounded-xl py-3 ml-8">
+                                    <li><a href="#" class="hover:bg-gray-100 block transition duration-150 ease-in px-5 py-3">Mark as Spam</a></li>
+                                    <li><a href="#" class="hover:bg-gray-100 block transition duration-150 ease-in px-5 py-3">Delete Post</a></li>
+                                </ul>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </x-app-layout>
